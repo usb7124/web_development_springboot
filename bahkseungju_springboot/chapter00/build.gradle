@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.0'
+    id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'me.bahkseungju'  // 여기는 groupId와 동일합니다.
+version = '1.0' // 여기도 수정했습니다.
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}
+/*
+    plugins :
+        org.springframework.boot -> 스프링 부트 플러그인
+        org. spring.dependency-management -> 스프링의 의존성을 자동으로 관리
+    group :
+        groupId와 동일하기만 하면 됩니다.
+        추가로 자바 소스를 컴파일 할 때 사용할 자바 버전을 고정시켰습니다 -> 17
+    repositories : 의존성을 받을 저장소 -> default 로 설정했습니다.
+    dependence
+
+ */
