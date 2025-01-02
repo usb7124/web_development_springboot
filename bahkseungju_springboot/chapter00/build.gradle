@@ -28,6 +28,6 @@ test {
         groupId와 동일하기만 하면 됩니다.
         추가로 자바 소스를 컴파일 할 때 사용할 자바 버전을 고정시켰습니다 -> 17
     repositories : 의존성을 받을 저장소 -> default 로 설정했습니다.
-    dependence
+    dependence : 프로제그를 개발하며 필요한
 
  */
